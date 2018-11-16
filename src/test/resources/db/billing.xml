@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <client id="1" name="john" surname="lennon" email="john@lennon.com" create_on="2018-07-15" />
+    <client id="2" name="paul" surname="mccartney" email="paul@mccartney.com" create_on="2018-07-15" />
+    <client id="3" name="george" surname="harrison" email="george@harrison.com" create_on="2018-07-15" />
+    <client id="4" name="ringo" surname="starr" email="ringo@starr.com" create_on="2018-07-15" />
+    <client id="5" name="julian" surname="lennon" email="julian@lennon.com" create_on="2018-07-15" />
+
+    <product id="1" name="guitar" price="100.0" create_on="2018-07-15" />
+    <product id="2" name="bass" price="50.0" create_on="2018-07-15" />
+    <product id="3" name="trumpet" price="1000.0" create_on="2018-07-15" />
+    <product id="4" name="drum" price="200.0" create_on="2018-07-15" />
+    <product id="5" name="piano" price="90.0" create_on="2018-07-15" />
+    <product id="6" name="cymbal" price="30.0" create_on="2018-07-15" />
+    <product id="7" name="triangle" price="60.0" create_on="2018-07-15" />
+    <product id="8" name="marimba" price="70.0" create_on="2018-07-15" />
+
+    <bill id="1" description="sgt. peppers bill" client_id="1" create_on="2018-07-15" />
+    <bill id="2" description="abbey road bill" client_id="1" create_on="2018-07-15" />
+    <bill id="3" description="white album bill" client_id="1" create_on="2018-07-15" />
+    <bill id="4" description="revolver bill" client_id="2" create_on="2018-07-15" />
+    <bill id="5" description="rubber soul bill" client_id="3" create_on="2018-07-15" />
+    <bill id="6" description="help bill" client_id="3" create_on="2018-07-15" />
+    <bill id="7" description="let it be bill" client_id="1" create_on="2018-07-15" />
+    <bill id="8" description="please please me bill" client_id="4" create_on="2018-07-15" />
+
+    <line id="1" quantity="4" product_id="1" bill_id="1" create_on="2018-07-15" />
+    <line id="2" quantity="2" product_id="2" bill_id="1" create_on="2018-07-15" />
+
+    <line id="3" quantity="1" product_id="8" bill_id="2" create_on="2018-07-15" />
+    <line id="4" quantity="1" product_id="7" bill_id="2" create_on="2018-07-15" />
+    <line id="5" quantity="2" product_id="2" bill_id="2" create_on="2018-07-15" />
+    <line id="6" quantity="2" product_id="1" bill_id="2" create_on="2018-07-15" />
+
+</dataset>
